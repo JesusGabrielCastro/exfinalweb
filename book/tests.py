@@ -5,7 +5,7 @@ from .models import Item
 
 class AccountTests(APITestCase):
    
-    def test_create_book_and_retrieve(self):
+    def test_create_item_and_retrieve(self):
         """
         Ensure we can create a new account object.
         """
